@@ -1,1 +1,2 @@
-# Cloud_Computing
+# Cloud Computing
+Florea Florin-Cosmin 3A3
