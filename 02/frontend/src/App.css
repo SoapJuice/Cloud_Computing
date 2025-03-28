@@ -1,0 +1,74 @@
+.App {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+
+section {
+  margin-bottom: 40px;
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+button {
+  background: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 15px;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #2980b9;
+}
+
+.book-list, .loan-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.book-card, .loan-card, .user-card {
+  background: white;
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.book-card img {
+  width: 100%;
+  height: auto;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  margin-top: 0;
+  color: #2c3e50;
+}
+
+p {
+  margin: 8px 0;
+  color: #34495e;
+}
+
+.user-card {
+  max-width: 300px;
+  margin: 0 auto;
+  background: #e8f4fc;
+}
